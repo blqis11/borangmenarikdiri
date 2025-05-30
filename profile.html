@@ -1,0 +1,38 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="topbar"></div>
+  <script>
+    fetch('header.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('topbar').innerHTML = data;
+      });
+  </script>
+
+  <section style="margin: 50px auto; max-width: 800px; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); text-align: center;">
+    <img src="profile.jpg" alt="Profile Picture" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+    <h2>NURUL BALQIS BINTI BADRUL HISHAM</h2>
+    <p><strong>Matric Number:</strong> 2023510127</p>
+    <p><strong>Class Group:</strong> RCDCS2405B</p>
+  </section>
+
+  <div id="footer"></div>
+  <script>
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
