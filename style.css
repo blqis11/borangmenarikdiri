@@ -50,7 +50,7 @@ button:hover {
 }
 
 .topbar {
-  background-color: #88b7ff;
+  background-color: #8937b8 ;
   color: white;
   display: flex;
   flex-wrap: wrap; /* allow wrapping */
@@ -100,7 +100,7 @@ nav ul li a {
 }
 
 footer {
-  background-color: #88b7ff;
+  background-color: #8937b8;
   color: white;
   text-align: center;
   padding: 15px 0;
