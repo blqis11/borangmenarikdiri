@@ -50,7 +50,7 @@ button:hover {
 }
 
 .topbar {
-  background-color: #8937b8 ;
+  background-color: #8937b8;
   color: white;
   display: flex;
   flex-wrap: wrap; /* allow wrapping */
@@ -114,7 +114,6 @@ footer {
   font-size: 14px;
 }
 
-/* Modal Styles */
 .modal {
   display: none;
   position: fixed;
